@@ -12,9 +12,9 @@ app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 
 // --- 1. CONFIGURATION ---
-const GEMINI_KEY = "AIzaSyCtSsVHluoVI2n3tuXhl9VnaZ1dbTtjX7A"; 
-const GROQ_KEY = "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"; 
-const TRANSCRIPT_API_KEY = "sk_lgyipcog-61owjeWsw7KfpFRoI1EBWetTPbdLrsqZ5c"; 
+const GEMINI_KEY = ""; 
+const GROQ_KEY = ""; 
+const TRANSCRIPT_API_KEY = ""; 
 
 const genAI = new GoogleGenerativeAI(GEMINI_KEY);
 const groq = new Groq({ apiKey: GROQ_KEY }); // Initialized Groq
